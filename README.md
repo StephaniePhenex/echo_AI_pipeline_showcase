@@ -64,6 +64,19 @@ flutter analyze
 
 See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) and [`docs/SHOWCASE_ALLOWLIST.md`](docs/SHOWCASE_ALLOWLIST.md).
 
+## Publish this repo to GitHub
+
+Create a **new public** repository (empty, no README). Then from this folder:
+
+```bash
+git init -b main   # skip if already initialized
+git add -A && git commit -m "Initial public showcase import"
+git remote add origin https://github.com/YOUR_ORG/echo-saas-showcase.git
+git push -u origin main
+```
+
+Use a **dedicated** remote for this repo; do not add it as a second remote to your private monorepo working copy to avoid accidental pushes.
+
 ## License
 
 MIT — see [LICENSE](LICENSE). Sample data is illustrative only.
