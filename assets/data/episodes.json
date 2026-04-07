@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ep_demo_1",
+    "podcast_id": "demo_showcase",
+    "title": "Demo episode: architecture overview",
+    "cover_image": "https://placehold.co/120x120/e0e0e0/333?text=Demo",
+    "xiaoyuzhou_url": "https://example.com/episodes/demo-1",
+    "audio_deep_link": "",
+    "entities": {
+      "primary": ["Flutter", "Riverpod", "Supabase"],
+      "secondary": ["Web", "Search UX"],
+      "aliases": {"F": "Flutter"}
+    },
+    "timestamped_topics": [
+      {"topic": "Introduction", "time_sec": 0, "time_label": "00:00"}
+    ],
+    "summary": "Sample episode for the public showcase repository.",
+    "searchable": true,
+    "transcript_original_preview": "",
+    "transcript_en_preview": ""
+  },
+  {
+    "id": "ep_demo_2",
+    "podcast_id": "demo_showcase",
+    "title": "Ranking and entity scoring",
+    "cover_image": "https://placehold.co/120x120/e0e0e0/333?text=Demo2",
+    "xiaoyuzhou_url": "https://example.com/episodes/demo-2",
+    "audio_deep_link": "",
+    "entities": {
+      "primary": ["SearchService", "Relevance"],
+      "secondary": ["Testing"],
+      "aliases": {}
+    },
+    "timestamped_topics": [],
+    "summary": "Discusses client-side ranking heuristics used in the showcase.",
+    "searchable": true,
+    "transcript_original_preview": "",
+    "transcript_en_preview": ""
+  },
+  {
+    "id": "ep_demo_3",
+    "podcast_id": "demo_showcase",
+    "title": "Edge function integration",
+    "cover_image": "https://placehold.co/120x120/e0e0e0/333?text=Demo3",
+    "xiaoyuzhou_url": "https://example.com/episodes/demo-3",
+    "audio_deep_link": "",
+    "entities": {
+      "primary": ["Deno", "Postgres"],
+      "secondary": ["RLS"],
+      "aliases": {}
+    },
+    "timestamped_topics": [],
+    "summary": "How the listener UI loads episodes via the search Edge Function.",
+    "searchable": true,
+    "transcript_original_preview": "",
+    "transcript_en_preview": ""
+  }
+]
